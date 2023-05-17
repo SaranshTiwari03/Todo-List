@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./task.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div id="container1">
+        <div id="Header1">
+              <div class="htext">
+                <h2 id="head1">GYIZER</h2>
+              <h3 id="head2">TODO APP</h3>
+            </div>
+       </div>
+       
+       <header>
+            <form id="new-task-form">
+                <div id="data">
+                
+                    <input class="title" name="new-task-input1" 
+                    id="new-task-input1" type="text" placeholder="Title..."  /><br>
+                    <input class="title" name="new-task-input2" 
+                    id="new-task-input2" type="text" placeholder="Input..." /><br>
+                </div>
+                <div >
+                    <button class="but1" type="submit" id="new-task-submit">
+                        <i class="fa-solid fa-plus fa-2xl" style="color: #ff8303;"></i>
+                    </button>
+                </div>
+            </form>
+        </header>
+        <main class=task1>
+            
+            <section class="task-list " style="display:flex;flex-direction: column">
+                <div id="tasks" style=" display: flex; justify-content: center;flex-wrap:wrap; align-items: center;flex-direction: row; padding: 0 20px 20px;" >
+                    
+                        <!-- <div class="task">
+                            <div class="content">
+                            <input 
+                                type="text" 
+                                class="text"
+                                value="My shiny task"
+                                readonly
+                            />
+                            </div>
+                            <div class="actions">
+                            <button class="edit">
+                                <i class="fa-solid fa-check" style="color: #e17407;"></i> -->
+                                 <!-- Edit
+                            </button>
+                            <button class="delete">
+                                 <i class="fa-solid fa-xmark" style="color: #e17407;"></i> -->
+                                  <!-- Delete
+                            </button>
+                            </div>
+                        
+                         </div> --> 
+
+                         
+                </div>
+            </section>
+            <div class="content2">
+                <input 
+                    name="new-task-input1" 
+                    id="new-task-input3"
+                    type="text" 
+                    class="Notask"
+                    value="No Task"
+                    readonly
+                />
+                </div>
+        </main>
+
+      </div>
+    
+
+    
+    <script src="https://kit.fontawesome.com/14b407f870.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>  
+     
+  </body>
+</html>

@@ -1,0 +1,278 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	
+}
+
+#container1{
+    position: relative;
+width: 99.9%;
+height: 1024px;
+
+background: #1B1A17
+}
+
+#Header1{
+    box-sizing: border-box;
+
+    position: relative;
+width: 99.9%px;
+height: 82px;
+left: 0px;
+top: 0px;
+
+background: #242320;
+border: 2px solid #A35709;
+border-radius: 0px 0px 8px 8px;
+}
+
+#head1{
+    
+    position: relative;
+width: 82px;
+height: 28px;
+left: 48px;
+top: 0px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+
+}
+
+
+#head2{
+position: absolute;
+width: 78px;
+height: 19px;
+left: 48px;
+top: 30px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #F0E3CA;
+}
+
+.htext{
+    position: absolute;
+width: 82px;
+height: 47px;
+left: 48px;
+top: 10px;
+
+}
+header {
+	padding: 2rem 1rem;
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+header h1{ 
+	font-size: 2.5rem;
+	font-weight: 300;
+	color: var(--grey);
+	margin-bottom: 1rem;
+}
+
+#new-task-form {
+	display: flex;;
+}
+#data{
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0px;
+   /* 
+    position: absolute;
+    width: 466px;
+    height: 80px;
+    left: 348px;
+    top: 144px;      */
+    position: relative;
+    top: 35px;
+    
+      
+}
+
+ .title{
+   /*box-sizing: border-box; 
+    left: 8.36%;
+    right: 83.27%;
+    top: 21.88%;
+    bottom: 15%;
+    height: 350px;*/
+   
+    box-sizing: border-box; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    width: 400px;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+
+text-align: center;
+
+color: rgba(240, 227, 202, 0.64);
+
+background: #242320;
+border: 1px solid #FF8303;
+border-radius: 4px; 
+ }
+ input, button {
+	appearance: none;
+	border: none;
+	outline: none;
+	background: none;
+}
+
+
+ .but1{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    left: 50%;
+    top: 30px; 
+    background: #1B1A17;
+border: 2px solid #FF8303;
+border-radius: 8px;
+ }
+ #b1{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #1B1A17;
+border: 2px solid #FF8303;
+border-radius: 8px;
+ }
+
+.task1{
+    box-sizing: border-box;
+
+position: absolute;
+width: 100%;
+height: 426px;
+left: 0;
+top: 370px;
+
+background: #242320;
+border: 2px solid #A35709;
+border-radius: 8px;
+ }
+
+
+
+ #tasks .task {
+	display: flex;
+	justify-content: space-between;
+	background-color: #00000000;
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+}
+
+.task{
+     box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+gap: 16px;
+background: #242320;
+border: 2px solid #A35709;
+border-radius: 8px; 
+}
+
+#tasks .task .content{
+ flex:1  1 0%;
+}
+
+
+#tasks .task .content .text {
+	color:#F0E3CA ;
+	font-size: 1.125rem;
+	width: 100%;
+    flex: 1 1 0%;
+	display: block;
+	transition: 0.4s;
+    background-color: #00000000
+}
+
+#tasks .task .content .text:not(:read-only) {
+	color:#FF8303 ;
+}
+#tasks .task .actions {
+	display: flex;
+	margin: 0 -0.5rem;
+    
+}
+
+#tasks .task .actions button {
+	cursor: pointer;
+	margin: 0 0.5rem;
+	font-size: 1.500rem;
+	/* font-weight: 700; */
+	/* text-transform: uppercase; */
+	transition: 0.4s;
+}
+
+#tasks .task .actions button:hover {
+	opacity: 0.8;
+}
+
+#tasks .task .actions button:active {
+	opacity: 0.6;
+}
+
+#tasks .task .actions .edit{
+background: #1B1A17;
+border: 2px solid #A35709;
+border-radius: 6px;
+color:#F0E3CA;
+}
+#tasks .task .actions .delete{
+    background: #1B1A17;
+    border: 2px solid #A35709;
+    border-radius: 6px;
+    color:#F0E3CA;
+    }
+
+.content2 .Notask{
+    position: relative;
+    width: 466px;
+    height: 80px;
+    left: 50%;
+    top: 144px; 
+    color: #FFFFFF;
+}
+
+
+.task{
+    
+}
